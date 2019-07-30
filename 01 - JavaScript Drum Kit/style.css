@@ -1,11 +1,3 @@
-:root {
-  --color-primary: #FFC600;
-  --color-secondary: #00A0FF;
-  --color-ternary: #5CF2E8;
-  --color-quaternary: #F71E35;
-}
-
-
 html {
   font-size: 10px;
   background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
