@@ -21,7 +21,7 @@ body,html {
 .key {
   border: .4rem solid black;
   border-radius: .5rem;
-  margin: 1rem;
+  margin: 0 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
   transition: all .07s ease;
@@ -49,3 +49,16 @@ kbd {
   letter-spacing: .1rem;
   color: #ffc600;
 }
+
+@media only screen and (max-width: 750px) {
+  .keys {
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    width: 90%;
+  }
+
+}
+
