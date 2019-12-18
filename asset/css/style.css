@@ -10,7 +10,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: 'Monserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.6;
@@ -18,9 +18,12 @@ body {
   color: #f9f7f6; }
 
 .title {
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: 600;
-  color: #B28451; }
+  letter-spacing: .3rem;
+  color: #B28451;
+  text-transform: uppercase;
+  padding-top: 2rem; }
 
 .item {
   display: grid;
@@ -62,17 +65,15 @@ body {
 
 .header {
   font-size: 1.8rem;
-  font-weight: 400;
-  margin-top: 4rem;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto; }
+  font-weight: 300;
+  margin-top: 2rem;
+  text-align: center; }
   .header a {
     text-decoration: none;
     color: #c69963; }
 
 .items {
-  margin: 10rem;
+  margin: 7.5rem 10rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   grid-gap: 5rem; }

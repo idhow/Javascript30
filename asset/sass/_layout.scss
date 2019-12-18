@@ -1,6 +1,6 @@
 .container {
   max-width: 140rem;
-  margin: 5rem auto;;
+  margin: 5rem auto;
   background: #0F2027;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -17,11 +17,9 @@
 
 .header {
   font-size: 1.8rem;
-  font-weight: 400;
-  margin-top: 4rem;
+  font-weight: 300;
+  margin-top: 2rem;
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
 
   a {
     text-decoration: none;
@@ -29,9 +27,11 @@
   }
 }
 
+
 .items {
-  margin: 10rem;
-  
+  margin: 7.5rem 10rem;
+
+
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   grid-gap: 5rem;
