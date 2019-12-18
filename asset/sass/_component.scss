@@ -1,0 +1,39 @@
+// HEADER
+.title {
+  font-size: 7rem;
+  font-weight: 600;
+  color: $color-primary-dark;
+}
+
+//CONTENT
+.item {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-row-gap: 5rem;
+
+  &__link:link,
+  &__link:visited {
+    text-decoration: none;
+    transition: all .2s;
+  }
+
+  &__link:hover,
+  &__link:active {
+    background-color: $color-primary-dark;
+    box-shadow: 0px 0px 2rem rgba(#000, .5);
+    color: #fff;
+    transform: translateY(-5px);
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__title {
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 1rem;    
+  }
+}

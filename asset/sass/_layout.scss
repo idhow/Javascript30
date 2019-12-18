@@ -1,0 +1,50 @@
+.container {
+  max-width: 140rem;
+  margin: 5rem auto;;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: .5rem;
+  box-shadow: 0px 0px 2rem grey;
+
+  @media only screen and (max-width: $bp-largest) {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.header {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-top: 4rem;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+
+  a {
+    text-decoration: none;
+    color: $color-primary;
+  }
+}
+
+.items {
+  margin: 10rem;
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  grid-gap: 5rem;
+}
+
+.footer {
+  font-size: 1.6rem;
+  margin-bottom: 5rem;
+  padding-bottom: 2rem;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: $color-primary;
+  }
+}
