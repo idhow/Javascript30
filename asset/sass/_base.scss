@@ -10,8 +10,7 @@ $color-grey-light-2: #aaa;
 $color-grey-dark-1: #54483A;
 $color-grey-dark-2: #6D5D4B;
 
-$bp-largest: 75em; // 1200px/16
-$bp-large: 68.75em; // 1100px
+$bp-large: 75em; // 1200px/16
 $bp-medium: 56.25em; // 900px
 $bp-small: 37.5em; // 600px
 $bp-smallest: 31.25em; // 500px
@@ -34,15 +33,6 @@ body {
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.6;
-  // background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
-  // background-size: cover;
-  // background-repeat: no-repeat;
   background-color: $color-grey-light-1;
   color: $color-grey-light-1;
-
 }
-
-
-
-
-

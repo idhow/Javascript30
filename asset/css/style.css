@@ -24,6 +24,9 @@ body {
   color: #B28451;
   text-transform: uppercase;
   padding-top: 2rem; }
+  @media only screen and (max-width: 37.5em) {
+    .title {
+      font-size: 4rem; } }
 
 .item {
   display: grid;
@@ -47,7 +50,7 @@ body {
     margin-bottom: 1rem; }
 
 .container {
-  max-width: 140rem;
+  max-width: 120rem;
   margin: 5rem auto;
   background: #0F2027;
   /* fallback for old browsers */
@@ -66,20 +69,24 @@ body {
 .header {
   font-size: 1.8rem;
   font-weight: 300;
-  text-align: center; }
+  text-align: center;
+  padding: 2rem 0; }
   .header a {
     text-decoration: none;
     color: #c69963; }
+  @media only screen and (max-width: 37.5em) {
+    .header {
+      font-size: 1.4rem; } }
 
 .items {
-  margin: 7.5rem 10rem;
+  margin: 5rem 7.5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 5rem; }
 
 .footer {
   font-size: 1.6rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
   text-align: center; }
   .footer a {
     text-decoration: none;

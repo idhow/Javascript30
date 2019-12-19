@@ -1,5 +1,5 @@
 .container {
-  max-width: 140rem;
+  max-width: 120rem;
   margin: 5rem auto;
   background: #0F2027;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
@@ -8,7 +8,7 @@
   border-radius: .5rem;
   box-shadow: 0px 0px 2rem grey;
 
-  @media only screen and (max-width: $bp-largest) {
+  @media only screen and (max-width: $bp-large) {
     margin: 0;
     max-width: 100%;
     width: 100%;
@@ -19,26 +19,28 @@
   font-size: 1.8rem;
   font-weight: 300;
   text-align: center;
+  padding: 2rem 0;
 
   a {
     text-decoration: none;
     color: $color-primary;
   }
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 1.4rem;
+  }
 }
 
-
 .items {
-  margin: 7.5rem 10rem;
-
-
+  margin: 5rem 7.5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 5rem;
 }
 
 .footer {
   font-size: 1.6rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
   text-align: center;
 
   a {
