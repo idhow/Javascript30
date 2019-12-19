@@ -27,6 +27,9 @@ body {
   @media only screen and (max-width: 37.5em) {
     .title {
       font-size: 4rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .title {
+      font-size: 3rem; } }
 
 .item {
   display: grid;
@@ -77,6 +80,9 @@ body {
   @media only screen and (max-width: 37.5em) {
     .header {
       font-size: 1.4rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .header {
+      font-size: 1.2rem; } }
 
 .items {
   margin: 5rem 7.5rem;
